@@ -1,0 +1,75 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ban",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deathban/procedures/BanProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deathban/client/screens/DeathOverlay.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "death_ban",
+    "modName": "Death Ban",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/eCAHRcTYc9",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "https://discord.gg/eCAHRcTYc9",
+    "modElementsPackage": "net.mcreator.deathban",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGHEST",
+    "components": [],
+    "baseTexture": "ds4mr5s0gkr8n1hqia1kpqeecc-f208a263c214c1787c002dcc0deb3514.png",
+    "overlayTarget": "Error",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
